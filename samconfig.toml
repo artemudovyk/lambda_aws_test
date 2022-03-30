@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "lambda-aws-test-project"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-x4g7ovpubwpz"
+s3_prefix = "lambda-aws-test-project"
+region = "eu-central-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
